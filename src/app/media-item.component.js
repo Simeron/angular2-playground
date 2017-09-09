@@ -9,6 +9,9 @@ var core_1 = require("@angular/core");
 var MediaItemComponent = (function () {
     function MediaItemComponent() {
     }
+    MediaItemComponent.prototype.onDelete = function () {
+        console.log('deleted');
+    };
     return MediaItemComponent;
 }());
 MediaItemComponent = __decorate([
