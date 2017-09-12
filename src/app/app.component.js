@@ -8,7 +8,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.name = 'Angular';
+        this.firstMediaItem = {
+            id: 1,
+            name: "Firebug",
+            medium: "Series",
+            category: "Science Fiction",
+            year: 2010,
+            watchedOn: 1294166565384,
+            isFavorite: false
+        };
     }
     return AppComponent;
 }());
