@@ -1,68 +1,26 @@
-# Angular Essential Training
+# Angular Essential Training - Simeron using Lynda tutorial 
 
-This is the repository for my course **Angular Essential Training**  
-The full course is available at [lynda.com](https://lynda.com) and [LinkedIn Learning](https://www.linkedin.com/learning).  
-[Lynda.com subscribers: watch here](https://www.lynda.com/AngularJS-tutorials/Angular-2-Essential-Training/540347-2.html)  
-[LinkedIn Learning subscribers: watch here](https://www.linkedin.com/learning/angular-2-essential-training-2)  
+I really wanted to learn Angular 2, both for myself to gain the skill of working with Angular 2 and as en essential skill for my job. 
+ 
+## Before starting the training
+Going into the training I already had a good knowledge of HTML and CSS, my JavaScript level wasn't as strong, but I will still keen to learn. 
 
+## During the learning 
+I learnt a lot from this course. I did have quite a few issues along the way. This meant it took me longer than expected to complete. 
+Although I was following the tutorials very closely some of the material for each training session was pre-loaded which meant I needed to source this from somewhere in order for me to move forward with the training. I was able to do this using the 'live demo' windows which were available. However in the end I had to find the source code and refer to this a few times to make sure I was up to date with the right code. 
+ 
+This causing me with quite a few issues and some errors which I couldn't fix and I was spending far to much time on. 
+ 
+In the end I had to move on. I completed the course and tried to fix as many error along the way as I could. 
 
-## Course Description
+## In conclusion 
+I learnt a lot about angular 2 and I am keen to apply what I have learnt in this course to projects of my own to expand my skills further. 
 
-JavaScript frameworks help you code more quickly, by providing special functionality for developing specific types of web projects. Angular was designed by Google to address challenges programmers face building single-page applications. This course introduces you to the essentials of this "superheroic" framework, including declarative templates, two-way data binding, and dependency injection. Justin Schwartzenberger steps through the framework one feature at a time, focusing on the new component-based architecture of Angular. After completing this training, you'll be able to tackle the other project-based courses in our library and create your own Angular app.
+Once I got to the end of the course I wanted a working version which I could refer to in future to aid me when working on my own applications. So I made sure all of the relevant files matched the ones of the tutorial. 
 
-Topics include:
-- What is Angular?
-- Setting up an Angular template
-- Creating a component
-- Displaying data
-- Working with events
-- Using two-way data binding
-- Creating a subcomponent
-- Using the built-in HTTP module
-- Using the built-in router module
+The link to the tutorial I used is [here the course is on Lynda](https://www.lynda.com/AngularJS-tutorials/Angular-2-Essential-Training/540347-2.html)
+This is something I would recommend to anyone who is looking to learn more about Angular. 
 
-## Instructions
-
-1. Make sure you have these installed
-  - [node.js](http://nodejs.org/)
-  - [git](http://git-scm.com/)
-
-2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) 
-
-    `git clone https://github.com/LyndaExerciseFiles/angular2-essential-training.git`
-    
-3. CD to the folder
-
-    `cd angular2-essential-training`
-    
-4. Run the following to install the project dependencies:
-
-    `npm install`
-    
-5. Run the npm start command to build the code, watch for file changes, and serve up the site locally:
-
-    `npm start`
-
-The repository has a branch for each video starting point. For example, the branch **02-01b** is used as the starting code for the video *02-01 NgModule and the root module*. You can checkout branches using `git checkout -b <branchname>` and not have to re-run `npm install` each time since you will remain in the same root folder.
-
-Note that the site will run using `lite-server` and will be served up at the following local address:  
-    http://localhost:3000
-
-*If you use a code editor that launches its own web server please note that it may run on a different port number. 
-You will want to use `npm start` for this project.*
-
-## FAQ
-If you are getting a list of errors on `npm install` that look like `Cannot find name 'Promise'`, check your `package.json` file and see if the following DevDependencies have a caret in front of the version number (the ^ symbol):
-```json
-"devDependencies": {
-  
-  "@types/core-js": "0.9.34",
-  "@types/node": "6.0.41"
-  
-}
-```
-If the caret is there (would look like `"@types/core-js": "^0.9.34"`) then remove it (or copy the contents of the [package.json](https://github.com/coursefiles/angular2-essential-training/blob/master/package.json) file on the origin repository) and run `npm install` again.
-  
-## More Stuff
-Check out some of my [other courses on lynda.com](https://lynda.com/justinschwartzenberger). 
-You can also [follow me on twitter](https://twitter.com/schwarty), or read [my blog](http://schwarty.com).
+##### Tips for when I revisit this: 
+* When you need to run the server find the relevant folder and run the following: 
+`npm start` if I am missing some modules then run the following: `npm install` 
