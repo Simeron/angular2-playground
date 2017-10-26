@@ -200,7 +200,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/systemjs.config.extras.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/systemjs.config.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/tsconfig.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -460,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37941000" />
+    <option name="totallyTimeSpent" value="38106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
